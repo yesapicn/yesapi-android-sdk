@@ -11,6 +11,7 @@ public class SignUtil {
 
   /**
    * MD5签名
+   * 或者使用替换方案-Hutool工具： String s = DigestUtil.md5Hex(stringBuffer.toString()).toUpperCase();
    * @param str 需要签名的字符串
    * @param isUpper 是否大写
    * @return 签名后字符串（大写）
